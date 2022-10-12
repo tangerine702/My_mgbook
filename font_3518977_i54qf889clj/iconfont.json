@@ -1,0 +1,65 @@
+{
+  "id": "3518977",
+  "name": "ben'zi",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "1296",
+      "name": "向上",
+      "font_class": "xiangshang",
+      "unicode": "e600",
+      "unicode_decimal": 58880
+    },
+    {
+      "icon_id": "6544491",
+      "name": "爱心",
+      "font_class": "aixin",
+      "unicode": "e6f9",
+      "unicode_decimal": 59129
+    },
+    {
+      "icon_id": "6544498",
+      "name": "分享",
+      "font_class": "fenxiang",
+      "unicode": "e6fa",
+      "unicode_decimal": 59130
+    },
+    {
+      "icon_id": "6544508",
+      "name": "人",
+      "font_class": "ren",
+      "unicode": "e6fe",
+      "unicode_decimal": 59134
+    },
+    {
+      "icon_id": "6544517",
+      "name": "收藏",
+      "font_class": "shoucang",
+      "unicode": "e6ff",
+      "unicode_decimal": 59135
+    },
+    {
+      "icon_id": "6544520",
+      "name": "书签",
+      "font_class": "shuqian",
+      "unicode": "e700",
+      "unicode_decimal": 59136
+    },
+    {
+      "icon_id": "14401741",
+      "name": "menu",
+      "font_class": "menu",
+      "unicode": "e678",
+      "unicode_decimal": 59000
+    },
+    {
+      "icon_id": "29978502",
+      "name": "更多",
+      "font_class": "a-topliontubiaoku_gengduo",
+      "unicode": "e608",
+      "unicode_decimal": 58888
+    }
+  ]
+}

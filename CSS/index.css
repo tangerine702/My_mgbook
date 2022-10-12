@@ -1,0 +1,421 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0.5px solid black;
+    font-family:"Microsoft YaHei";
+    font-size: 16px;
+    border-radius: 2px;
+}
+
+body{
+    height: 100%;
+    background-color: #eee;
+}
+a{
+    text-decoration: none;
+}
+.flex{
+    display: flex;
+}
+.flex1{
+    flex: 1;
+}
+
+/* ----------------------------字体----------------------------------- */
+/* @font-face {
+    font-family: 'iconfont';
+    src: url('iconfont.woff2?t=1657685753128') format('woff2'),
+         url('iconfont.woff?t=1657685753128') format('woff'),
+         url('iconfont.ttf?t=1657685753128') format('truetype');
+}
+
+.iconfont {
+    font-family: "iconfont" !important;
+    font-size: 16px;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+} */
+
+/* @font-face {
+    font-family: 'iconfont';
+    src: url('iconfont.woff2?t=1664605336249') format('woff2'),
+         url('iconfont.woff?t=1664605336249') format('woff'),
+         url('iconfont.ttf?t=1664605336249') format('truetype');
+} */
+
+  /* .iconfont {
+    font-family: "iconfont" !important;
+    font-size: 16px;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}   */
+
+
+@font-face {
+    font-family: 'iconfont';
+    src: url('iconfont.woff2?t=1664877086409') format('woff2'),
+         url('iconfont.woff?t=1664877086409') format('woff'),
+         url('iconfont.ttf?t=1664877086409') format('truetype');
+  }
+
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+/* ---------------------------------------------------------------------- */
+
+
+marquee{
+    height: 40px;
+    line-height: 38px;
+    font-size: 18px;
+}
+
+.white{
+    background-color: white;
+}
+
+/* --------------------侧边栏star----------------------------------- */
+#iside{
+    
+    width: 160px;
+
+}
+
+#menu{
+    display: none;
+    position: fixed;
+    top: 2px;
+    left: 162px;
+    height: 40px;
+    width: 40px;
+    line-height: 40px;
+    text-align: center;
+    background-color: white;
+    color: black;
+    cursor: pointer;
+    font-size: 25px;
+    z-index: 1100;
+    box-shadow: 1px solid #999;
+    border: 0 5px 10px rgba(0,0,0,.1);
+}
+#iside span{
+    font-size: 16px;
+    border: 0;
+}
+.btn_color{
+    /* 原颜色#339999 */
+    background-color: #39C5BB;          
+    color: #eee;
+}
+#user{
+    height: 40px;
+    /* align-items: center;         //← 以下两种方法都可*/
+    line-height: 40px; 
+    /* background-color: #39C5BB;            */
+    border: 0;
+}
+#user img{
+    border: 0;
+    height: 40px;
+}
+marquee{
+    border: 0;
+}
+
+.column{
+    flex-direction: column;
+}
+.classify{
+    height: 30px;
+    line-height: 30px;
+    padding: 5px;
+    
+}
+.classify:hover{
+    background-color: white;
+    cursor:pointer;
+}
+.btn{
+    padding: 8px 50px;
+    /* padding: 6px 6px 6px 49px; */
+    font-size: 18px;
+}
+
+.right_ah{
+    float: right;
+}
+/* --------------------侧边栏end----------------------------------- */
+
+
+
+
+/* --------------右侧顶部栏star---------------------------------------- */
+
+#top_list{
+    height: 40px;
+    
+    /* background-color: #39C5BB; */
+    
+    background-color: #eee;
+}
+/* -----------------------顶部栏end---------------------------------------- */
+
+
+/* --------------------内容区star---------------------------------------------- */
+
+
+
+
+#new{
+    display: inline-block;
+    width: 12px;
+    
+    font-size: 3px;
+    color: red;
+    
+}
+
+.new_time{
+    flex-wrap: wrap; /* 允许折行 */
+    margin: 0;
+    padding: 1em;
+    list-style: none;
+    border: 0;
+}
+
+.new_time li{
+    display: flex;
+    width: 360px;
+    margin: 2px;
+    border: 0.5px;
+}
+.new_time li:hover{
+    background-color: #99cccc;
+}
+.book_img img{
+    width: 150px;
+    height: 215px;
+    padding: 2px;
+}
+.HD{
+    position:relative;
+    margin-bottom: 2px;
+}
+.HD img{
+    padding-left: 2px;
+    height: 18px;
+    position: absolute;
+    bottom: 0px;
+    margin-right: 2px;
+}
+
+.book_name{
+    padding-left: 35px;
+    color: #000080;
+    font-weight: 700;
+}
+.book_name_noHD{
+    padding-left: 2px;
+    color: #000080;
+    font-weight: 700;
+}
+.tag div{
+    border-radius: 5px;
+    padding: 0 2px;
+}
+.checked {
+    color: orange;
+}
+.star_bar{
+    margin-top: 3px;
+}
+/* --------------------内容区end---------------------------------------------- */
+
+/* ----------------尾部star------------------ */
+#footer {
+    background-color: #F1F1F1;
+    text-align: center;
+    padding: 10px;
+    
+}
+#footer div{
+    border: 0;
+}
+/* ----------------尾部end------------------ */
+
+
+
+
+
+#go_top{
+    position: fixed;
+    bottom: 12px;
+    right: 15px;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    border-radius: 30px;
+    text-align: center;
+}
+
+#go_top:hover{
+    background-color: #39c5bb;
+    cursor: pointer;
+}
+
+#think{
+    display: block;
+    margin: 10px auto;
+    width: 399px;
+    font-size: 20px;
+    text-align: center;
+    padding: 2px 5px;
+    border: 0;
+    
+
+}
+#think_s{
+    margin: 0 auto;
+    font-size: 20px;
+    border: 0;
+}
+#list_name{
+    display: inline-block;
+    width: 399px;
+    border: 0;
+    
+    
+}
+#list_name span{
+    background-color: #39C5BB;
+    margin: 2px 2px;
+    border-radius: 10px;
+    padding:0px 8px;
+    
+}
+
+#list_name span a{
+    border: 0;
+    display: inline-block;
+    margin-bottom: 7px;
+    color: #333;
+}
+
+
+/* -----------------------自适应star---------------------------------- */
+
+@media (max-width:1200px){
+    #menu{
+        display: block;
+        left: 2px;
+    }
+    #iside{
+        position: absolute;
+        left: -350px;
+    }
+
+    .new_time li{
+        
+        margin-left: 23px;
+    }
+    .btn{
+        padding: 6px 17px;
+        font-size: 18px;
+    }
+    #user{
+        background-color: #eee;
+    }
+    #think{
+        
+        width: 401px;
+
+    }
+    
+    
+
+   #go_top{
+    background-color: #39C5BB;   
+   }
+}
+
+@media (max-width:769px){
+    #menu{
+        display: block;
+    }
+    
+
+    #iside{
+        position: absolute;
+        left: -350px;
+    }
+    .new_time li{
+        width: 70%;
+        margin-left: 86px;
+    }
+    .book_img img{
+        width: 150px;
+        height: 215px;
+    }
+    .btn{
+        padding: 6px 17px;
+        font-size: 18px;
+    }
+    #think{
+        display: block;
+        margin: 10px auto;
+        width: 401px;
+        font-size: 20px;
+        text-align: center;
+        padding: 2px 5px;
+        
+    
+    }
+   
+    
+    #go_top{
+        background-color: #39C5BB;   
+       }
+}
+    
+@media (max-width:450px){
+    #menu{
+        display: block;
+    }
+    .btn{
+        padding: 6px 17px;
+        font-size: 18px;
+    }
+    .new_time li{
+        width: 95%;
+        margin-left: 22px;
+    }
+    #think{
+        display: block;
+        margin: 10px auto;
+        width: 315px;
+        font-size: 20px;
+        text-align: center;
+        padding: 2px 5px;
+        
+    }
+    #list_name{
+        display: inline-block;
+        width: 305px;
+        
+        
+    }
+
+    #go_top{
+        background-color: #39C5BB;   
+       }
+}
+
+/* -----------------------自适应end---------------------------------- */
+
