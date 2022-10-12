@@ -4,7 +4,7 @@
     border: 0.5px solid black;
     font-family:"Microsoft YaHei";
     font-size: 16px;
-    border-radius: 2px;
+    border-radius: 3px;
 }
 
 body{
@@ -83,7 +83,7 @@ marquee{
 
 /* --------------------侧边栏star----------------------------------- */
 #iside{
-    
+    background-color: #61BFAD;
     width: 160px;
 
 }
@@ -111,7 +111,7 @@ marquee{
 }
 .btn_color{
     /* 原颜色#339999 */
-    background-color: #39C5BB;          
+    background-color: #1EA674;          
     color: #eee;
 }
 #user{
@@ -139,7 +139,7 @@ marquee{
     
 }
 .classify:hover{
-    background-color: white;
+    background-color: #1EA674;
     cursor:pointer;
 }
 .btn{
@@ -163,14 +163,16 @@ marquee{
     
     /* background-color: #39C5BB; */
     
-    background-color: #eee;
+    background-color: #e6e2e98a;
 }
 /* -----------------------顶部栏end---------------------------------------- */
 
 
 /* --------------------内容区star---------------------------------------------- */
 
-
+#books{
+    background-color: #f2eef58a;
+}
 
 
 #new{
@@ -179,7 +181,7 @@ marquee{
     
     font-size: 3px;
     color: red;
-    
+    border: 0;
 }
 
 .new_time{
@@ -187,39 +189,44 @@ marquee{
     margin: 0;
     padding: 1em;
     list-style: none;
-    border: 0;
+    border: 1px;
+    border-radius: 5px;
 }
 
 .new_time li{
     display: flex;
     width: 360px;
     margin: 2px;
-    border: 0.5px;
+
+    
 }
 .new_time li:hover{
-    background-color: #99cccc;
+    background-color: #61bfaea9;
 }
 .book_img img{
     width: 150px;
     height: 215px;
     padding: 2px;
+    border: 1px;
 }
 .HD{
     position:relative;
-    margin-bottom: 2px;
+    /* margin-bottom: 2px; */
 }
 .HD img{
     padding-left: 2px;
     height: 18px;
     position: absolute;
     bottom: 0px;
-    margin-right: 2px;
+    margin-right: 1px;
+    border: 0;
 }
 
 .book_name{
-    padding-left: 35px;
+    padding-left: 30px;
     color: #000080;
     font-weight: 700;
+    border: 0;
 }
 .book_name_noHD{
     padding-left: 2px;
@@ -227,14 +234,22 @@ marquee{
     font-weight: 700;
 }
 .tag div{
-    border-radius: 5px;
-    padding: 0 2px;
+    border-radius: 10px;
+    margin: 0 2px;
+    text-align: center;
+}
+.tag span{
+    border: 0;
 }
 .checked {
     color: orange;
 }
 .star_bar{
     margin-top: 3px;
+
+}
+.star_bar span{
+    border: 0;
 }
 /* --------------------内容区end---------------------------------------------- */
 
