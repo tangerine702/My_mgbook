@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:"Microsoft YaHei";
+}
+body{
+    background-color: #eee;
+}
+.conter{
+    width: 600px; height: 280px;
+    position: absolute; left: 0; top: 0; right: 0; bottom: 0;
+    margin: auto;    /* 有了这个就自动居中了 */
+    background-color: #fff;
+    border-radius: 10px;
+}
+
+.flex{
+    display: flex;
+}
+.flex1{
+    flex:1;
+}
+.in_img img{
+    padding-top: 2px;
+    width: 260px;
+    border-radius: 10px;
+}
+
+#title{
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+.txt p{
+    margin-bottom: 5px;
+}
+
+.txt{
+    position: relative;
+    padding: 2px;
+}
+
+a{
+    position: absolute;
+    bottom: 2px;
+    right: 2px;
+    
+}
+
+@media (max-width:450px){
+
+    .conter{
+        width: 220px;
+        height: 570px;
+        flex-flow: column;
+        flex-wrap: wrap;
+    }
+
+    .in_img img{
+        width: 150px;
+
+    }
+}
