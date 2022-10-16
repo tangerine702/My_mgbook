@@ -132,7 +132,7 @@ gotop.onclick=function(){
 
 book_li.forEach(li =>{
         li.onclick = ()=>{
-            window.location.href='html/Detail.html';
-            console.log("点击了li");
+            window.location.href='/html/Detail.html';
+            //console.log("点击了li");
         }
 })
