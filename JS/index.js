@@ -118,7 +118,7 @@ let gotop = document.querySelector('#go_top');
 gotop.onclick=function(){
     for(var h=document.documentElement.scrollTop;h>0;h--){
         if(document.documentElement.scrollTop !=0){
-            document.documentElement.scrollTop=document.documentElement.scrollTop-10;
+            //document.documentElement.scrollTop=document.documentElement.scrollTop-10;
             // console.log(document.documentElement.scrollTop);
         }else{
     
