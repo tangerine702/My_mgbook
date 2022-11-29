@@ -76,10 +76,27 @@ let iside_menu = document.querySelector('#iside');
 let iside_user_span = document.querySelector('#user span');
 // console.log(menu_btn);
 // console.log(iside_menu);
+let on_off = 1;
+
 
 menu_btn.onclick=function(){
     
-    if(iside_menu.style.left=="-350px"){
+    if(on_off===1){
+        //console.log(menu_btn.innerHTML);
+        menu_btn.innerHTML = '&#xe617';
+        on_off = 0;
+        
+    }else{
+        menu_btn.innerHTML = '&#xe678';
+        on_off = 1;
+    }
+
+    //iside_menu.style.left="0px";
+
+    if(iside_menu.style.left=="0px"){
+        iside_menu.style.left="-350px";
+    }else{
+        
         iside_menu.style.left = "0px";
         iside_menu.style.width = "96px"
         book_li.style = "300px"
@@ -87,8 +104,6 @@ menu_btn.onclick=function(){
         iside_menu.style.top="45px";
         iside_menu.style.background = "#ffffff"; 
         iside_user_span.innerText = '';   
-    }else{
-        iside_menu.style.left="-350px";
     }
 }
 
@@ -136,3 +151,8 @@ book_li.forEach(li =>{
             //console.log("点击了li");
         }
 })
+
+
+
+// ------------------------手机端menu按切换图标---------------------------------------
+
