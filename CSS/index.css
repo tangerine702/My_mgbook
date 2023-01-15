@@ -1,7 +1,7 @@
 *{
     margin: 0;
     padding: 0;
-    border: 0.5px solid black;
+    border: .5px solid black;
     font-family:"Microsoft YaHei";
     font-size: 16px;
     border-radius: 3px;
@@ -111,6 +111,7 @@ marquee{
     z-index: 1100;
     box-shadow: 1px solid #999;
     border: 0 5px 10px rgba(0,0,0,.1);
+    
 }
 #iside span{
     font-size: 16px;
@@ -150,7 +151,7 @@ marquee{
     cursor:pointer;
 }
 .btn{
-    padding: 8px 50px;
+    padding: 10px 50px;
     /* padding: 6px 6px 6px 49px; */
     font-size: 18px;
 }
